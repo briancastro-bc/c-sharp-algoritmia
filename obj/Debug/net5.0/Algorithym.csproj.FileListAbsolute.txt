@@ -1,0 +1,16 @@
+C:\Users\Swyme\source\repos\Algorithym\bin\Debug\net5.0\Algorithym.exe
+C:\Users\Swyme\source\repos\Algorithym\bin\Debug\net5.0\Algorithym.deps.json
+C:\Users\Swyme\source\repos\Algorithym\bin\Debug\net5.0\Algorithym.runtimeconfig.json
+C:\Users\Swyme\source\repos\Algorithym\bin\Debug\net5.0\Algorithym.runtimeconfig.dev.json
+C:\Users\Swyme\source\repos\Algorithym\bin\Debug\net5.0\Algorithym.dll
+C:\Users\Swyme\source\repos\Algorithym\bin\Debug\net5.0\ref\Algorithym.dll
+C:\Users\Swyme\source\repos\Algorithym\bin\Debug\net5.0\Algorithym.pdb
+C:\Users\Swyme\source\repos\Algorithym\obj\Debug\net5.0\Algorithym.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Swyme\source\repos\Algorithym\obj\Debug\net5.0\Algorithym.AssemblyInfoInputs.cache
+C:\Users\Swyme\source\repos\Algorithym\obj\Debug\net5.0\Algorithym.AssemblyInfo.cs
+C:\Users\Swyme\source\repos\Algorithym\obj\Debug\net5.0\Algorithym.csproj.CoreCompileInputs.cache
+C:\Users\Swyme\source\repos\Algorithym\obj\Debug\net5.0\Algorithym.dll
+C:\Users\Swyme\source\repos\Algorithym\obj\Debug\net5.0\ref\Algorithym.dll
+C:\Users\Swyme\source\repos\Algorithym\obj\Debug\net5.0\Algorithym.pdb
+C:\Users\Swyme\source\repos\Algorithym\obj\Debug\net5.0\Algorithym.genruntimeconfig.cache
+C:\Users\Swyme\source\repos\Algorithym\obj\Debug\net5.0\Algorithym.csproj.AssemblyReference.cache
