@@ -20,7 +20,7 @@ namespace Algorithym
          */
         public void PrintWord(int N, string palabra)
         {
-            for(int i = 1; i <= N; i++)
+            for (int i = 1; i <= N; i++)
             {
                 Console.WriteLine($"Repitiendo {palabra}({i})");
             }
@@ -31,7 +31,7 @@ namespace Algorithym
          */
         public List<int> GenerateNaturalNums(int N)
         {
-            for(int i = 0; i <= N; i++)
+            for (int i = 0; i <= N; i++)
             {
                 Console.WriteLine($"Número {i}");
                 numbersList.Add(i);
@@ -45,7 +45,7 @@ namespace Algorithym
         public void PrintNumsSum(int N)
         {
             int sum = 0;
-            for(int i = 1; i <= N; i++)
+            for (int i = 1; i <= N; i++)
             {
                 Console.WriteLine(i);
                 sum += i;
@@ -59,7 +59,7 @@ namespace Algorithym
         public void CalculateEvenSum(int N)
         {
             int sum = 0;
-            for(int i = 1; i <= N; i++)
+            for (int i = 1; i <= N; i++)
             {
                 if (i % 2 == 0) sum += i;
                 Console.WriteLine($"Número {i}");
@@ -73,9 +73,9 @@ namespace Algorithym
         public void CalculateOddSum(int N)
         {
             string serie = "";
-            for(int i = 0; i <= N; i++)
+            for (int i = 0; i <= N; i++)
             {
-                if(i % 2 == 1)
+                if (i % 2 == 1)
                 {
                     serie += $" {i} ";
                     sum += i;
@@ -95,12 +95,56 @@ namespace Algorithym
         {
             int factorial = 1;
             string serie = "";
-            for(int i = 1; i <= number; i++)
+            for (int i = 1; i <= number; i++)
             {
                 serie += $"{i} * ";
                 factorial *= i;
             }
             Console.WriteLine($"Factorial {number}! = {serie} = {factorial}!");
         }
+
+        /**
+         * Generar e imprimir la serie y la suma los primero N números múltiplos de M.
+         */
+        public void GenerateMultiples(int N, int M)
+        {
+            string serie = "";
+            for(int i = 0; i <= N; i++)
+            {
+                if(i % M == 0)
+                {
+                    serie += $" + {i}";
+                    sum += i;
+                }
+            }
+            Console.WriteLine($"Serie: {serie} = {sum}");
+        }
+
+        /**
+         * Calcular e imprimir la suma de S definida por la siguiente serie.
+         * S = 1 – 2 + 3 – 4 + 5 – 6 … + n
+         */
+        public void SumSeries(int N)
+        {
+            string serie = "";
+            for(int i = 1; i <= N; i++)
+            {
+                serie += $" + {i}";
+                sum += i;
+            }
+            Console.WriteLine($"S = {serie} = {sum}");
+        }
+
+        /**
+         * Generar e imprimir las primeras N tablas de multiplicar, desde el 1 hasta el 9.
+         */
+        public void Multiply(int stop, int number)
+        {
+            for(int i = 1; i <= stop; i++)
+            {
+                Console.WriteLine($"{number} x {i} = {number*i}");
+            }
+        }
+
     }
 }
