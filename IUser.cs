@@ -8,7 +8,8 @@ namespace Algorithym
 {
     public interface IUser
     {
-        List<string> Users { get; set; }
+        //List<string> Users { get; set; }
         bool Verify();
+        void Signup();
     }
 }
